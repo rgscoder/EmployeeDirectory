@@ -1,38 +1,99 @@
-.App {
+.app {
+  display: flex;
+  width: 1100px;
+  height: 800px;
+  margin: 15px auto;
+  background-color:rgb(253, 253, 253);
+  border: 2px solid black;
+}
+
+
+.homepage {
+  background-color:rgb(168, 168, 168);
+  width: 600px;
+  border: 2px solid black;
+  margin-left: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.employee-page {
+   background-color:rgb(255, 255, 255);
+  width: 400px;
+  border: 2px solid rgb(0, 0, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-placeholder {
+  background-color:rgb(255, 255, 255);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 65px;
+  width: 65px;
+  border: 2px solid rgb(0, 0, 0);
+  align-items: center;
+}
+img {
+  height: 50px;
+  width: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.empHeader {
+  height: 95px;
+  background-color:rgb(158, 3, 0);
+  border: 2px solid black;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 600px;
+  margin-bottom: 5px;
+  border: 2px solid rgb(167, 14, 0);
+ 
+}
+.search input {
+  width: 500px;
+  height: 30px;
+  border: 1px solid rgb(98, 98, 98);
+  border-radius: 10px;
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.employees {
+  height: 680px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(230, 230, 230);
 }
+
+.items {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  border: 2px solid rgb(6, 6, 6);
+  margin: 5px auto;
+
+}
+
+p {
+  font-size: 12px;
+
+}
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 12px;
+}
+
+h3 {
+  font-size: smaller;
+}
+
+
+
+
